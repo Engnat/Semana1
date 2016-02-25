@@ -46,7 +46,7 @@ nav li
 
 nav li a
 	{
-	   color:#333;
+	   color:#fff;
 	   text-decoration:none;
 	   padding: 5px;
 	   display:block;
@@ -138,16 +138,16 @@ header , footer
 			
 	}
 
-[title$="r"]
+[class$="r"]
 	{
-		background:#F50087;
+		background:#F50087; /* magenta */
 
 	}
 
-[class*="a"] :not([title$="r"])
+[class*="a"]:not([class$="r"])
 
 	{
-		color:#4C4CFF;
+		background:#4C4CFF; /* blue */
 
 
 	}
