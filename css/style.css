@@ -17,6 +17,7 @@ header, nav, section, article, aside, footer
 		border:1px solid grey;
 		margin:5px;
 		padding:8px;
+
 	}
 
 header
@@ -81,6 +82,7 @@ section
 	{
 		width: 400px;
     	height: 400px;
+
 	}
 	
 section > header
@@ -112,7 +114,6 @@ aside
 		width: 244px;
     	height: 400px;
 		font-size:10px;
-		background:rgb(102,102,102);
 	}
 aside > p
 	{
@@ -143,9 +144,10 @@ header , footer
 
 	}
 
-title$="l"]:not(title$="r")
+[class*="a"] :not([title$="r"])
+
 	{
-		background:#4C4CFF;
+		color:#4C4CFF;
 
 
 	}
