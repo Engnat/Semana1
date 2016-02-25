@@ -34,7 +34,7 @@ nav
 		width: 200px;
 		height: 400px;
 		font-size:12px;
-		background:#4C4CFF;
+		
 	}
 
 section
@@ -86,8 +86,19 @@ header , footer
 			
 	}
 
-header, footer, sidebar
+[title$="r"]
 	{
 		background:#F50087;
+
 	}
+
+title$="l"]:not(title$="r")
+	{
+		background:#4C4CFF;
+
+
+	}
+
+
+
 	
