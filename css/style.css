@@ -33,7 +33,7 @@ nav
 		clear: both;
 		width: 200px;
 		height: 400px;
-		font-size:12px;
+		
 		
 	}
 
@@ -49,6 +49,7 @@ nav li a
 	   text-decoration:none;
 	   padding: 5px;
 	   display:block;
+	   font-size:12px;
 	}
 nav li a:hover
 	{
