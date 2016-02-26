@@ -32,7 +32,7 @@ header
 		background:rgb(0, 0, 0);
 	    width: 100%;
 	    height: 710px;
-	    align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+	    align-content: flex-start;
 	    display: flex;
 	 }
 
@@ -43,9 +43,9 @@ article
 	    left: 0px;
 	}
 
-.grid-cell {
-	position:relative;
-	width: 32.33332%;
-	min-height:1em;
-	overflow:hidden;
-}
+.caja
+	{
+		width: 80%;
+		margin: 0 90px;
+	}
+
