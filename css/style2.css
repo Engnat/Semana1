@@ -4,6 +4,17 @@
 	box-sizing: border-box;
 }
 
+html
+{
+	color: white;
+}
+
+p
+{
+	margin: 10px 9px;
+}
+
+
 .contenedor
 	{
 		width: 900px;
@@ -19,7 +30,7 @@
 
 header
 	{
-		width: 30%;
+		width: 20%;
 	}
 
 .Section1 > div
