@@ -1,0 +1,51 @@
+*{
+	display:block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.contenedor
+	{
+		width: 900px;
+
+	}
+
+.Section1
+	{
+		background:rgb(102,102,102);
+	    width: 100%;
+
+	}
+
+header
+	{
+		width: 30%;
+	}
+
+.Section1 > div
+	{
+		width: 70%;
+	}
+
+.Section2
+	{
+		background:rgb(0, 0, 0);
+	    width: 100%;
+	    height: 710px;
+	    align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+	    display: flex;
+	 }
+
+article
+	{
+    	margin: 10px 20px;
+	    top: 0px;
+	    left: 0px;
+	}
+
+.grid-cell {
+	position:relative;
+	width: 32.33332%;
+	min-height:1em;
+	overflow:hidden;
+}

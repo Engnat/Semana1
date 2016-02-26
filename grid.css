@@ -1,0 +1,12 @@
+*{
+    display:block;
+    float: left;
+}
+
+header
+    {
+        width: 900px;
+        height: 100px;
+        background:rgb(102,102,102);
+        font-size:46px;
+    }
