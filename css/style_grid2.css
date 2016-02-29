@@ -1,0 +1,127 @@
+*
+{
+	box-sizing:border-box;
+}
+
+.container
+{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.column
+{
+  background-color:#333;
+  padding: 1em;
+  float: left;
+  width: 33.33%;
+}
+
+
+.bloques
+{
+  background-color: #999;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 0 1em;
+  padding: 1em;
+  width: 100%;
+  color:#FFF;
+}
+
+/* Columna 1 */
+.column:nth-child(1) .bloques:nth-child(1)
+{
+  height: 150px;
+}
+
+.column:nth-child(1) .bloques:nth-child(2)
+{
+  height: 290px;
+}
+
+.column:nth-child(1) .bloques:nth-child(3)
+{
+  height: 320px;
+}
+
+.column:nth-child(1) .bloques:nth-child(4)
+{
+  height: 114px;
+}
+
+
+
+/* Columna 2 */
+
+.column:nth-child(2) .bloques:nth-child(1)
+{
+  height: 250px;
+}
+
+.column:nth-child(2) .bloques:nth-child(2)
+{
+  height: 490px;
+}
+
+.column:nth-child(2) .bloques:nth-child(3)
+{
+  height: 150px;
+}
+
+/* Columna 3 */
+
+.column:nth-child(3) .bloques:nth-child(1)
+{
+  height: 180px;
+}
+
+.column:nth-child(3) .bloques:nth-child(2)
+{
+  height: 190px;
+}
+
+.column:nth-child(3) .bloques:nth-child(3)
+{
+  height: 520px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 480px) 
+{
+	.container
+		{
+		  width: 480px;
+		}
+	.column
+		{
+		  width: 80.33%;
+		}
+		
+	
+	}
+	
+@media screen and (min-width: 640px) 
+{
+	.column
+		{
+		  width: 45.33%;
+		}
+		
+	
+	}
+
+@media screen and (min-width: 1024px) 
+{
+	.container
+		{
+		  width: 720px;
+		}
+		
+	.column
+		{
+		  width: 33.33%;
+		}
+	
+}
