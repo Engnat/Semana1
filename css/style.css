@@ -1,6 +1,6 @@
 *{
-	display:block;
-	float: left;
+	float:left;
+	box-sizing:border-box;
 }
 
 html
@@ -10,18 +10,22 @@ html
 	color: #fff;
 	font-weight: bold;
 }
+
+[title~=contenedor]
+{
+	width:910px;
+}
 	
 header, nav, section, article, aside, footer
 	{
 		border:1px solid grey;
 		margin:5px;
-		padding:8px;
 
 	}
 
 header
 	{
-		width: 900px;
+		width: 98%;
 		height: 100px;
 		background:rgb(102,102,102);
 	    font-size:46px;
@@ -31,7 +35,7 @@ header
 nav
 	{
 		clear: both;
-		width: 200px;
+		width: 21%;
 		height: 400px;
 		
 		
@@ -79,38 +83,38 @@ nav li:hover ul
 
 section
 	{
-		width: 400px;
+		width: 45%;
     	height: 400px;
 
 	}
 	
 section > header
 {
-	    width: 93%;
+	    width: 98%;
 		font-size:14px;
 	}
 	
 article
 	{
-		width: 93%;
-    	height: 45%;
+		width: 98%;
+    	height: 58%;
 	}
 
 article > p
 	{
 		color:rgb(51 ,51 , 51);
-		margin: 0px 5px;
+		margin: 10px 5px;
     	text-align: -webkit-center;
 	}	
 section > footer
 	{
-		width: 93%;
+		width: 98%;
     	height: 9%;
 	}
 	
 aside
 	{
-		width: 244px;
+		width: 29.8%;
     	height: 400px;
 		font-size:10px;
 	}
@@ -122,7 +126,7 @@ aside > p
 	
 footer
 	{    
-		width: 900px;
+		width: 98%;
 		height: 30px;
 		clear: both;
 		background:rgb(51,51,51);

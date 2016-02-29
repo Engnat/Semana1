@@ -1,0 +1,13 @@
+*{
+	box-sizing:border-box;
+ }
+ 
+[title~=contenedor]
+{
+	width:900px;
+    background: #CCC;
+    border-radius: 11px;
+    padding: 10px;
+	margin:auto;
+}
+

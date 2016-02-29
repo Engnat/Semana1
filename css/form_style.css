@@ -1,0 +1,54 @@
+*{
+	box-sizing:border-box;
+}
+
+html
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+
+[title~=contenedor]
+{
+	width: 450px;
+    background: #CCC;
+    border-radius: 11px;
+    padding: 10px;
+	margin:auto;
+}
+
+[name~=email]
+{
+	margin: 0px 31px;
+}
+
+[name~=Last_name]
+{
+	margin: 10px 0px;
+}
+
+[name~=birthday]
+{
+	margin: 10px 18px;
+}
+
+[title~=contenido2]
+{
+	width: 100%;
+	padding: 5px 112px;
+}
+
+[title~=contenido1]
+{
+	width: 100%;
+}
+
+[name~=about]
+{
+	margin: 10px 0px;
+	width:100%;
+}
+
+
+
