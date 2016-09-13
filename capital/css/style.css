@@ -1,0 +1,98 @@
+body{
+	background-image: url("../img/bg.jpg");
+}
+
+html {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+    max-width: 1680px;
+}
+
+header{
+	display: block;
+    float: left;
+    height: 2%;
+    width: 100%;
+}
+
+.btn{
+	width: 36%;
+    margin: 0 auto;
+    padding: 0 32%;
+    cursor: pointer;
+}
+
+#contenedor{
+	width: 100%;
+    display: block;
+    float: left;
+    height: 100%;
+
+}
+
+#bloques{
+	width: 33.33%;
+    height: 100%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.nombre{
+	display: none;
+	font-size: 24px;
+    text-align: center;
+    font-family: 'Helvetica',sans-serif;
+}
+
+img[src="img/mas.png"]{
+	margin: 0 33.5%;
+    padding: 0;
+}
+
+h1{
+	color: #840E5A;
+}
+
+img[src="img/me.jpg"]{
+    width: 100%;
+    padding: 3% 0;
+    border-radius: 233px;
+}
+
+article[alt*="centro"]{
+    display: block;
+    float: left;
+}
+
+img[src="img/two.jpg"]{
+    width: 53%;
+    border-radius: 68px;
+    float: right;
+    padding: 15px 27px;
+}
+
+img[src="img/familia.jpg"]{
+    width: 60%;
+    border-radius: 44px;
+    }
+
+section[title*="texto1"]{
+    width: 100%;
+    display: block;
+    padding-top: 132%;
+    padding-left: 10%;
+    float: left;
+}
+
+.about{
+    padding: 0 6%;
+    text-align: left;
+    font-family: 'Helvetica',sans-serif; 
+}
