@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+ /*Fuentes*/
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica.eot');
+	src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Helvetica.woff') format('woff'), 
+	 	 url('../fonts/Helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica-Light';
+	src: url('../fonts/Helvetica-Light.eot');
+	src: url('../fonts/Helvetica-Light.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/Helvetica-Light.woff') format('woff'), 
+		 url('../fonts/Helvetica-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Kuro-Italic';
+	src: url('../fonts/Kuro-Italic.eot');
+	src: url('../fonts/Kuro-Italic.eot?#iefix') format('embedded-opentype'), 
+	 	 url('../fonts/Kuro-Italic.woff') format('woff'), 
+		 url('../fonts/Kuro-Italic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Kuro-Regular';
+	src: url('../fonts/Kuro-Regular.eot');
+	src: url('../fonts/Kuro-Regular.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/Kuro-Regular.woff') format('woff'), 
+		 url('../fonts/Kuro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Kuro-bold';
+	src: url('../fonts/Kuro-bold.eot');
+	src: url('../fonts/Kuro-bold.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/Kuro-bold.woff') format('woff'), 
+		 url('../fonts/Kuro-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+*{margin: 0; padding:0;box-sizing:border-box;}
+html, body {height: 100vh}
+html{box-sizing:border-box;font-family:'Kuro-Regular',Helvetica,sans-serif;}
+html, body{margin:0;padding:0;height:100%;width:100%;max-height: 902px;min-height:600px;}
+header{background-image:url(../images/header.jpg);background-position:center;background-size:cover;height:60px;padding:0;position:relative;display:block;width:100%;z-index:1;}
+header aside{width: 24%;}
+header aside img{padding-left:20%;}
+header nav p{color: #fff;font-family:'Kuro-bold',Helvetica,sans-serif;display: inline-block;font-size: 18px;margin: 0 0 0 24px;line-height: 3.3;}
+nav{position: absolute;width: 66%;height: 60px;left: 32%;top: 0;display: inline-block;}
+nav img{display: inline-block;float: right;margin: 5px 0 0 0;}
+
+#Contenido{width: 100%;height:calc(100vh);min-height: 600px;max-height: 846px;}
+#contenedor1{height: 90%;position: relative;display: block;}
+#bg_home{background-image: url(../images/bg_home.jpg);background-position: center;background-size: cover;height: calc(100% - 120px);}
+#bg_home aside{margin: 0 auto;width: 39%;}
+.sombra{width: 90%; margin: 0 auto; display: block;}
+#parrafo, #parrafo img{width: 100%;}
+#parrafo_home{position: absolute;width: 43%;right: 18.7%;bottom: 5%;font-size: 22px;color: #fff;}
+img[src="images/texto_home.png"]{margin: 20% 0 0 0;}
+img[src="images/celular.png"]{position: absolute;margin: 7% 0 0 5%;}
+#contenedor2{width:100%;height: 34%;display:block;float:left;}
+#contenedor2 section p{width: 42%;margin: 8% 0 0 7%;font-size: 20px;color: #4d4d4d;display: block;float: left;}
+#contenedor2 ul{width: 45%;float: left;margin: 6.5% 0 0 5%;list-style: none;display: inline-block;}
+#contenedor2 ul li{width: 31%;display: inline-block;margin: 0 10% 0 0;}
+#contenedor2 ul li p{color:#33cccc; cursor: pointer; margin: 0;font-family:'Helvetica-Light',sans-serif;font-size: 18px;width: 100%;text-align: center;}
+#contenedor3{display: block;float: left;height: 50%; position: relative; width: 100%;}
+.parallax {background-image: url(../images/bg_contenedor_3.png);min-height: 300px;
+    background-attachment: fixed; background-position: right top;background-repeat: no-repeat;
+    background-size: cover;}
+#contenedor4{display: block;position: relative;height: auto;width: 100%;float: left;margin: 4% 0 0 0;clear: both;}
+.intro{font-family:'Helvetica-Light',sans-serif;width: 60%;margin: 2% auto;text-align: center;color: #33cccc;font-size: 25px;}
+.contenedor_principal{height: 300px;width: 100%;display: block;}
+.contenedor_secundario{background-color: rgba(93 , 178 , 187 , 0.2); height: 300px; width: 100%; display: block;}
+#contenedor5{display: block;position: relative;height: 70%;width: 100%;float: left;margin: 4% 0 0 0;}
+footer{background-color: #0084cb;background-size:cover;height:70px;position:relative;clear:left;}
+.svg_mobile{display: none;}
+.logo_mobile{display: none;}
+.aval{float: right;margin: 10px 5px 0 0;}
+
+.terminos{cursor:pointer;color:#25b6a7;font-family:'Helvetica',sans-serif;text-decoration:underline;}
+.textright{float: right;display: block;}
+.white_content{position:relative;margin: 0 auto;width: 30%;height: 23%;padding:16px;background-color:white;z-index:1002;overflow:auto;top: 50%;transform: translateY(-50%);}
+.white_content h1{font-size: 30px;font-family: 'Kuro-Italic',sans-serif;color: #5acece;margin: 0 auto;padding: 8% 0 2% 0;width: 50%;}
+.white_content p{font-size: 15px;width: 90%;color: #39393a;display: block;margin: 0 auto;text-align: justify;}
+.white_content_terms{width: 60%;height: 50%;}
+#overlay{background:rgba(93,93,93,0.7);background:-moz-linear-gradient(left, rgba(93,93,93,0.7) 0%, rgba(93,93,93,0.7) 100%);
+	background:-webkit-linear-gradient(left, rgba(93,93,93,0.7) 0%,rgba(93,93,93,0.7) 100%);background:linear-gradient(to right, rgba(93,93,93,0.7) 0%,rgba(93,93,93,0.7) 100%);
+	height:100%;left:0;position:fixed;top:0;width:100%;z-index:1000;}
+img[src="images/flecha.png"]{margin: 0 auto;width: 90%;display: block;padding: 0 0 2% 0;}
+
+/*Animations*/
+
