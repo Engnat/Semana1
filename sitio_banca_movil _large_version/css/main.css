@@ -79,8 +79,12 @@ img[src="images/celular.png"]{position: absolute;margin: 7% 0 0 5%;}
     background-size: cover;}
 #contenedor4{display: block;position: relative;height: auto;width: 100%;float: left;margin: 4% 0 0 0;clear: both;}
 .intro{font-family:'Helvetica-Light',sans-serif;width: 60%;margin: 2% auto;text-align: center;color: #33cccc;font-size: 25px;}
-.contenedor_principal{height: 300px;width: 100%;display: block;}
-.contenedor_secundario{background-color: rgba(93 , 178 , 187 , 0.2); height: 300px; width: 100%; display: block;}
+.contenedor_principal {height: 300px;margin: 2% auto;width: 65%;}
+.contenedor_secundario{background-color: rgba(93 , 178 , 187 , 0.2);height: 374px;width: 100%;display: block;padding: 4% 10% 2% 10%;}
+.contenedor_secundario > .text_container , .contenedor_secundario > .img_container{float: right;}
+.text_container{width: 70%;display: block;float: left;}
+.text_container p{width: 68%;}
+.img_container{width: 22%;display: block;float: left;}
 #contenedor5{display: block;position: relative;height: 70%;width: 100%;float: left;margin: 4% 0 0 0;}
 footer{background-color: #0084cb;background-size:cover;height:70px;position:relative;clear:left;}
 .svg_mobile{display: none;}
